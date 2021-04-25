@@ -13,7 +13,7 @@ This dataset is composed of 40 malware samples, which are actually **from 4 fami
 2. Next, I do data preprocessing by one hot encoding, two-grams one hot and label encoding to make data more useful, and do PCA to reduce dimension. 
 3. To cluster data, I use k-means to cluster malwares into 4 malware families.
 
-I use these information as features to cluster.
+- I use these information as features to cluster.
 
 Section | Value | 
 ----------|:-----:|
@@ -25,3 +25,6 @@ PE Sections         | SizeOfRawData |
 PE Sections         | Misc |
 PE Sections         | Name |
 OPTIONAL_HEADER | CheckSum |
+
+- K-means result / scatter plot
+![image]('https://github.com/sourchen/Static-Analysis/blob/main/k-means.png')
