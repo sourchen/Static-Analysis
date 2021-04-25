@@ -26,6 +26,6 @@ PE Sections         | Misc |
 PE Sections         | Name |
 OPTIONAL_HEADER | CheckSum |
 
-- K-means result / scatter plot
+- K-means result (k=4) / scatter plot
 
 ![image](https://github.com/sourchen/Static-Analysis/blob/main/k-means.png)
